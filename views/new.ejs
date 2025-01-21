@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add new User</title>
+  </head>
+  <body>
+    <h1>Welcome to here to adding new user</h1>
+    <form method="post" action="/user/new">
+      <label for="email">Email : </label> <br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      /><br /><br />
+      <label for="username">User Name: </label><br />
+      <input type="text" name="username" placeholder="enter username" />
+      <br /><br />
+      <label for="password">Password: </label> <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="enter password"
+      />
+      <br /><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
